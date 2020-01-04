@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://littledriver.net/cn/</loc>
+    <lastmod>2020-01-05T00:22:04+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://littledriver.net/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://littledriver.net/cn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://littledriver.net/cn/posts/</loc>
+    <lastmod>2020-01-05T00:22:04+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://littledriver.net/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://littledriver.net/cn/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://littledriver.net/cn/posts/summarize-2018-and-2019/</loc>
+    <lastmod>2020-01-05T00:22:04+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://littledriver.net/cn/about/</loc>
     <lastmod>2019-09-15T14:24:59+09:00</lastmod>
     <xhtml:link
@@ -33,21 +68,6 @@
   </url>
   
   <url>
-    <loc>https://littledriver.net/cn/tags/container/</loc>
-    <lastmod>2019-09-15T14:24:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://littledriver.net/tags/container/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://littledriver.net/cn/tags/container/"
-                />
-  </url>
-  
-  <url>
     <loc>https://littledriver.net/cn/categories/container/</loc>
     <lastmod>2019-09-15T14:24:59+09:00</lastmod>
     <xhtml:link
@@ -63,17 +83,17 @@
   </url>
   
   <url>
-    <loc>https://littledriver.net/cn/tags/kubernetes/</loc>
+    <loc>https://littledriver.net/cn/tags/container/</loc>
     <lastmod>2019-09-15T14:24:59+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://littledriver.net/tags/kubernetes/"
+                href="https://littledriver.net/tags/container/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="https://littledriver.net/cn/tags/kubernetes/"
+                href="https://littledriver.net/cn/tags/container/"
                 />
   </url>
   
@@ -93,38 +113,23 @@
   </url>
   
   <url>
+    <loc>https://littledriver.net/cn/tags/kubernetes/</loc>
+    <lastmod>2019-09-15T14:24:59+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://littledriver.net/tags/kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://littledriver.net/cn/tags/kubernetes/"
+                />
+  </url>
+  
+  <url>
     <loc>https://littledriver.net/cn/posts/understand-container-technology/</loc>
     <lastmod>2019-09-15T14:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/cn/</loc>
-    <lastmod>2019-09-15T14:24:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://littledriver.net/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://littledriver.net/cn/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/cn/posts/</loc>
-    <lastmod>2019-09-15T14:24:59+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://littledriver.net/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://littledriver.net/cn/posts/"
-                />
   </url>
   
   <url>
