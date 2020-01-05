@@ -4,27 +4,7 @@
   
   <url>
     <loc>https://littledriver.net/categories/</loc>
-    <lastmod>2020-01-05T08:39:39+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/categories/life/</loc>
-    <lastmod>2020-01-05T08:39:39+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/</loc>
-    <lastmod>2020-01-05T08:39:39+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/posts/</loc>
-    <lastmod>2020-01-05T08:39:39+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/posts/summarize-2018-and-2019/</loc>
-    <lastmod>2020-01-05T08:39:39+09:00</lastmod>
+    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
   </url>
   
   <url>
@@ -38,12 +18,22 @@
   </url>
   
   <url>
+    <loc>https://littledriver.net/categories/kubernetes/</loc>
+    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://littledriver.net/tags/kubernetes/</loc>
     <lastmod>2019-12-01T21:24:59+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://littledriver.net/categories/kubernetes/</loc>
+    <loc>https://littledriver.net/</loc>
+    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://littledriver.net/posts/</loc>
     <lastmod>2019-12-01T21:24:59+09:00</lastmod>
   </url>
   
