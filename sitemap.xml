@@ -1,75 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://littledriver.net/categories/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/tags/network/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/posts/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/tags/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/categories/understand/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/posts/some-questions-about-layers-of-network-protocol/</loc>
-    <lastmod>2020-01-11T22:49:03+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/tags/container/</loc>
-    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/categories/container/</loc>
-    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/tags/kubernetes/</loc>
-    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/categories/kubernetes/</loc>
-    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/posts/understand-pod-concept/</loc>
-    <lastmod>2019-12-01T21:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/about/</loc>
-    <lastmod>2019-09-15T14:24:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://littledriver.net/posts/understand-container-technology/</loc>
-    <lastmod>2019-09-15T14:24:59+09:00</lastmod>
-  </url>
-  
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://littledriver.net/categories/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/tags/network/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/posts/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/tags/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/categories/understand/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/posts/some-questions-about-layers-of-network-protocol/</loc><lastmod>2020-01-11T22:49:03+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/tags/container/</loc><lastmod>2019-12-01T21:24:59+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/categories/container/</loc><lastmod>2019-12-01T21:24:59+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/tags/kubernetes/</loc><lastmod>2019-12-01T21:24:59+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/categories/kubernetes/</loc><lastmod>2019-12-01T21:24:59+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/posts/understand-pod-concept/</loc><lastmod>2019-12-01T21:24:59+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/about/</loc><lastmod>2019-09-15T14:24:59+09:00</lastmod></url><url>
+    <loc>https://littledriver.net/posts/understand-container-technology/</loc><lastmod>2019-09-15T14:24:59+09:00</lastmod></url></urlset>
