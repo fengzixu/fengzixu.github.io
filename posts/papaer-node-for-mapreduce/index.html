@@ -167,7 +167,7 @@
 <h2 id="sort">Sort</h2>
 <p>Actually, the analysis of performance of Sort program is quite complex. Honestly, I don’t know if the processing time of sorting 1TB data on the MapReduce system is enough good. Because I didn’t run the same sort program on the single worker machine or other distributed system. But there are still some points of performance report we need to know.</p>
 <p>The 1TB data set was split into M=15000 files, the size of each split file is 64MB. The final result will be output to R = 4000 files by Reduce task. Here is the performance analysis graph as below</p>
-<p><img src="https://raw.githubusercontent.com/fengzixu/graph-bed/master/peformance-2.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/fengzixu/graph-bed/master/performance-2.jpg" alt=""></p>
 <h3 id="the-input-rate-is-less-than-grep">The input rate is less than grep</h3>
 <p>In the normal execution condition, the intermediate key-value pairs of grep program and sort program are totally different. In the grep program, it only needs to record the matched pattern and its number of occurrences from every split file. The size of the intermediate pairs is negligible. It means the majority of intermediate result is useless for grep program. But, for Sort program, it should spend about half their time and I/O bandwidth writing intermediate pairs to the local disk, almost all data.</p>
 <h3 id="the-input-rate-is-higher-than-shuffle-rate-and-output-rate">The input rate is higher than shuffle rate and output rate</h3>
