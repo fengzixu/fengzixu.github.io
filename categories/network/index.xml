@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network on Littledriver</title>
+    <link>/categories/network/</link>
+    <description>Recent content in network on Littledriver</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>©2020 Littledriver.</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 22:49:03 +0900</lastBuildDate>
+    
+        <atom:link href="/categories/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>几个和网络分层有关的问题</title>
+      <link>/posts/some-questions-about-layers-of-network-protocol/</link>
+      <pubDate>Sat, 11 Jan 2020 22:49:03 +0900</pubDate>
+      
+      <guid>/posts/some-questions-about-layers-of-network-protocol/</guid>
+      <description>Q1: TCP 在进行三次握手的时候，IP层和MAC对应都有什么操作呢？ PS: 这里IP层和MAC层的说法是不准确的，应该是网络层和数据链路层。但是为了方便理</description>
+    </item>
+    
+  </channel>
+</rss>
