@@ -14,13 +14,13 @@
 </script>
 <meta property = "og:locale" content = "en_US" />
 <meta property="og:type" content="article">
-<meta name="description" content="This blog will introduct the graceful deletion proceess of pod in source code level. It maybe little bit complicated. If you just want to know the process in …">
+<meta name="description" content="This blog will introduce the graceful deletion proceess of pod in source code level. It maybe little bit complicated. If you just want to know the process in …">
 <meta name = "twitter:card" content = "summary_large_image" />
 <meta name = "twitter:creator" content = "@Haier0715">
 <meta name = "twitter:title" content = "How Kubernetes Deletes A Pod Gracefully" />
 <meta property = "og:url" content = "https://littledriver.net/post/how-kubernetes-deletes-a-reource-object/" />
 <meta property = "og:title" content = "How Kubernetes Deletes A Pod Gracefully" />
-<meta property = "og:description" content = "This blog will introduct the graceful deletion proceess of pod in source code level. It maybe little bit complicated. If you just want to know the process in …" />
+<meta property = "og:description" content = "This blog will introduce the graceful deletion proceess of pod in source code level. It maybe little bit complicated. If you just want to know the process in …" />
 <meta property = "og:image" content = "https://littledriver.net/images/thumbnail.png" />
 <link rel='apple-touch-icon' sizes='180x180' href='https://littledriver.net/icons/apple-touch-icon.png'>
 <link rel='icon' type='image/png' sizes='32x32' href='https://littledriver.net/icons/favicon-32x32.png'>
@@ -159,7 +159,7 @@
   </ul>
 </nav>
     <blockquote>
-<p>This blog will introduct the graceful deletion proceess of pod in source code level. It maybe little bit complicated. If you just want to know the process in high level, you can reference the <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination">official document</a></p>
+<p>This blog will introduce the graceful deletion proceess of pod in source code level. It maybe little bit complicated. If you just want to know the process in high level, you can reference the <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination">official document</a></p>
 </blockquote>
 <h2 id="hey-my-pod-was-stuck-in-terminating-state">Hey! My pod was stuck in Terminating state</h2>
 <p>During my on-call time, some users ask for my help with their pods that cannot be deleted successfully in the Kubernetes cluster. Maybe the pod was stuck in the <code>Terminating</code> state, maybe &ldquo;kubectl delete <!-- raw HTML omitted -->&rdquo; has been returned, but that pod object still exists.</p>
