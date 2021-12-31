@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SRE on Littledriver&#39;s Blog</title>
+    <link>https://littledriver.me/tags/sre/</link>
+    <description>Recent content in SRE on Littledriver&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 31 Dec 2021 13:37:37 +0900</lastBuildDate><atom:link href="https://littledriver.me/tags/sre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Reliability Risk</title>
+      <link>https://littledriver.me/post/google-sre-reading-1/</link>
+      <pubDate>Fri, 31 Dec 2021 13:37:37 +0900</pubDate>
+      
+      <guid>https://littledriver.me/post/google-sre-reading-1/</guid>
+      <description>
+        
+          
+            I started to read the &amp;laquo; Google SRE &amp;raquo; during my paid off from Nov 2021. Lots of suggestions, guidance, and knowledge are included in this book. I would like to understand and summarize key thoughts that are born from Google SRE. I can reference them to think about each of my decision to check if I am in the wrong direction or not.
+This blog will include my understanding of the second chapter &amp;ndash; Principles .
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

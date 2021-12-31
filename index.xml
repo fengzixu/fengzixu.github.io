@@ -6,7 +6,24 @@
     <description>Recent content on Littledriver&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 15 Aug 2020 16:33:20 +0900</lastBuildDate><atom:link href="https://littledriver.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 13:37:37 +0900</lastBuildDate><atom:link href="https://littledriver.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Reliability Risk</title>
+      <link>https://littledriver.me/post/google-sre-reading-1/</link>
+      <pubDate>Fri, 31 Dec 2021 13:37:37 +0900</pubDate>
+      
+      <guid>https://littledriver.me/post/google-sre-reading-1/</guid>
+      <description>
+        
+          
+            I started to read the &amp;laquo; Google SRE &amp;raquo; during my paid off from Nov 2021. Lots of suggestions, guidance, and knowledge are included in this book. I would like to understand and summarize key thoughts that are born from Google SRE. I can reference them to think about each of my decision to check if I am in the wrong direction or not.
+This blog will include my understanding of the second chapter &amp;ndash; Principles .
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Kubernetes Deletes A Pod Gracefully</title>
       <link>https://littledriver.me/post/how-kubernetes-deletes-a-reource-object/</link>

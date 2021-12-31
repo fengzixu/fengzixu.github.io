@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en" data-figures="">
+<html lang="en" data-figures="" class="page">
   <head>
-<title>paper note | Littledriver&#39;s Blog</title>
+<title>Understanding Reliability Risk | Littledriver&#39;s Blog</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,21 +17,20 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="I started to read the &laquo; Google SRE &raquo; during my paid off from Nov 2021. Lots of suggestions, guidance, and knowledge are included in this book. I …">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@Haier0715">
-<meta name="twitter:title" content="paper note" />
-<meta property="og:url" content="https://littledriver.me/tags/paper-note/" />
-<meta property="og:title" content="paper note" />
-<meta property="og:description" content="" />
+<meta name="twitter:title" content="Understanding Reliability Risk" />
+<meta property="og:url" content="https://littledriver.me/post/google-sre-reading-1/" />
+<meta property="og:title" content="Understanding Reliability Risk" />
+<meta property="og:description" content="I started to read the &laquo; Google SRE &raquo; during my paid off from Nov 2021. Lots of suggestions, guidance, and knowledge are included in this book. I …" />
 <meta property="og:image" content="https://littledriver.me/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://littledriver.me/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://littledriver.me/icons/favicon-32x32.png">
 <link rel="manifest" href="https://littledriver.me/icons/site.webmanifest">
 
-<link rel="canonical" href="https://littledriver.me/tags/paper-note/">
-<link rel="alternate" type="application/rss+xml" href="https://littledriver.me/tags/paper-note/index.xml" title="Littledriver's Blog" />
+<link rel="canonical" href="https://littledriver.me/post/google-sre-reading-1/">
 
     
 
@@ -109,34 +108,28 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <ul class="posts" id="posts">
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://littledriver.me/post/papaer-node-for-mapreduce/" title="Paper Note — MapReduce">Paper Note — MapReduce</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Understanding Reliability Risk</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <use xlink:href="#calendar"></use>
 </svg></span>
     <span class="post_date">
-      May 4, 2020</span>
-    <span class="post_time"> · 24 min read</span><span>&nbsp;· <a href='https://littledriver.me/tags/paper-note' title="paper note" class="post_tag button button_translucent">paper note
+      Dec 31, 2021</span>
+    <span class="post_time"> · 7 min read</span><span>&nbsp;· <a href='https://littledriver.me/tags/sre' title="SRE" class="post_tag button button_translucent">SRE
         </a>
     </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Paper%20Note%20%e2%80%94%20MapReduce&url=https%3a%2f%2flittledriver.me%2fpost%2fpapaer-node-for-mapreduce%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Understanding%20Reliability%20Risk&url=https%3a%2f%2flittledriver.me%2fpost%2fgoogle-sre-reading-1%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#twitter"></use>
 </svg>
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flittledriver.me%2fpost%2fpapaer-node-for-mapreduce%2f&t=Paper%20Note%20%e2%80%94%20MapReduce" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flittledriver.me%2fpost%2fgoogle-sre-reading-1%2f&t=Understanding%20Reliability%20Risk" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#facebook"></use>
 </svg>
@@ -146,7 +139,7 @@
   <use xlink:href="#linkedin"></use>
 </svg>
     </a>
-    <a href="https://littledriver.me/post/papaer-node-for-mapreduce/" title="Copy Link" class="link link_yank">
+    <a href="https://littledriver.me/post/google-sre-reading-1/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <use xlink:href="#copy"></use>
 </svg>
@@ -155,23 +148,84 @@
   </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div>
-          <p class="pale">
-            
-              Overview If you are a software engineer, you must hear a tech concept — “MapReduce”. It is quite popular in the processing dataset on the large scale cluster. It was created by Google in 2004. With the development of technology, maybe Google has a new awesome method, but MapReduce has become an important sample for …
-            
-          </p>
-          <a href="https://littledriver.me/post/papaer-node-for-mapreduce/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
 
-    <li>
-    </li>
+
+
+    
+    <div class="post_toc">
+      <h2>Overview</h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#seeking-balance">Seeking Balance</a></li>
+    <li><a href="#measuring-risk">Measuring Risk</a></li>
+    <li><a href="#identify-minimum-desire-state-of-service">Identify &ldquo;minimum desire state&rdquo; of service</a></li>
+    <li><a href="#manage-risk">Manage Risk</a></li>
+    <li><a href="#error-budget--slo">Error Budget / SLO</a></li>
+    <li><a href="#reflection">Reflection</a></li>
   </ul>
+</nav>
+    </div>
+    
+    <div class="post_body"><p>I started to read the <strong>&laquo; Google SRE &raquo;</strong> during my paid off from Nov 2021. Lots of suggestions, guidance, and knowledge are included in this book. I would like to understand and summarize key thoughts that are born from Google SRE. I can reference them to think about each of my decision to check if I am in the wrong direction or not.</p>
+<p>This blog will include my understanding of the second chapter &ndash; <strong>Principles</strong> .</p>
+<h2 id="seeking-balance">Seeking Balance</h2>
+<p>Previously, when I worked as a troubleshooter and leader of the Reliability Committee Group within my team, reliability in my mind usually means</p>
+<ul>
+<li>Making each outage can be trackable (e.g. root cause, long/short-term next action)</li>
+<li>Making each feature in weekly release is tested and can be rollbacked in prod env when something is wrong</li>
+<li>Making our Product (KaaS platform) maintained well by setting up on-call shift</li>
+<li>Making reliability events that happened in the last two weeks sync up with team members in the meeting.</li>
+</ul>
+<p>Those impressions of reliability come from my troubleshooting and outage handling experience. In another word, they come from the actual work, not thinking deeply after I finished work. So, sometimes, when I worked as SRE, I know which actual work I should do, but I don&rsquo;t know what&rsquo;s reliability target that my work should achieve at the abstraction level. Is it extreme reliability of our platform, like 99.9999999% service reliability? Is it an exciting feeling after locating the root cause of each outage or troubleshooting case? Those questions let me feel not good. Because it means I just work hard but don&rsquo;t know what&rsquo;s the real problem I should resolve and what&rsquo;s the target I should achieve.</p>
+<p>After I read the &ldquo;Embracing Risk&rdquo; part and talked to my ex-manager a lot, I got some hints about the reliability</p>
+<ul>
+<li>Reliability Engineering is not a specific product. But it is a necessary piece during the life cycle of the product. In general, the target of Reliability Engineering should be making the product can serve internal/external users continuously in reasonable quality.</li>
+<li>For business product development, it needs fast release velocity and an efficient delivery approach. For reliability engineering, it needs to make sure the product works well based on predefined SLO and error budget. They may be conflict sometimes. However, if the reliability requirement becomes the obstacle to business product growth, it&rsquo;s meaningless. In one word: No product, No reliability.</li>
+<li>My understanding of the general reliability target is: Using some tech/management staff to make the product reliable based on that balance between product release velocity and reliability. This balance should be adjustable. It can be strict or loose based on the actual situation, like product requirements and human resources.</li>
+</ul>
+<h2 id="measuring-risk">Measuring Risk</h2>
+<p>If we would like to &ldquo;manage&rdquo; risk, the first thing we should do is find an effective way to measure &ldquo;risk&rdquo;. We could understand it as an &ldquo;actual state&rdquo; in the Kubernetes world. Then, we can discuss with the developer to figure out the &ldquo;desire state&rdquo;. It&rsquo;s a &ldquo;risk threshold&rdquo;. Finally, we should start to think about how to make service work on the top of threshold.</p>
+<p>Risks of a program or service may come from different factors, like hardware failure, human operation error, etc. It&rsquo;s hard to track each factor in an exact metric. In that case, we can think about it from top to bottom. All of the risks in our mind mean something that will cause services or programs unreliable/unavailable. For measuring the availability of services, we have lots of methods, like measuring the downtime of service during the specific time window, measuring the ratio of failed requests on the service API. We can call them &ldquo;unplanned downtime&rdquo;.</p>
+<p>We usually use nines to indicate the availability level of services, like 99.99%, 99.999%. It&rsquo;s calculated in different ways based on type of services.</p>
+<h2 id="identify-minimum-desire-state-of-service">Identify &ldquo;minimum desire state&rdquo; of service</h2>
+<p>For confirming the &ldquo;minimum desire state&rdquo; of customer faced service, we should discuss with product owner of services to figure out some questions first</p>
+<ul>
+<li>What&rsquo;s the type of services? like API service or data hanlding service, stateless or stateful service, long-live or short-live.</li>
+<li>What are dependency services that the main service relies on</li>
+<li>What&rsquo;s severity of service in the company scope, like SEV1, SEV2, SEV3</li>
+<li>What&rsquo;s the frequency of releasing</li>
+<li>Which factors may affect the availability/reliability of services? like, failure request rate, QPS, resource capacity</li>
+<li>Do those factors cause the same impact on service or not? like the impact of high response time during 5 mins and completely down just 5 secs are same or not</li>
+<li>What&rsquo;s the minimum reliability requirement based on the factors above? like 99.999% successful request rate within 1 month or half a year</li>
+</ul>
+<p>For making service work in minimum desired state at least, Generally, it usually has different solutions that have diff pros/cons. One of the most important considerations to decide which one we will use is &ldquo;cost of solution&rdquo;. Two questions can be asked for product owner and SRE</p>
+<ul>
+<li>Which/how many resources are needed to improve reliability level of services to the desired state?</li>
+<li>Does revenue(include existing and new that is gained after reliability improvement is done) of services offset the cost of resources above?</li>
+</ul>
+<p>&ldquo;Cost&rdquo; of improvement solution sometimes let product owner re-think the service &ldquo;desire-state&rdquo;. It might be lower or higher than before. Nothing is free, we have to do the trade-off in here.</p>
+<p>For example, as a cloud service provider, I provided an experimental env of  CI/CD SaaS service to users. They can do everything in there. But any issue of exp env will be fixed within 1 week. It&rsquo;s slow because it&rsquo;s free. That&rsquo;s fair.  But, in prod env, we promise a 99.999% reliability level and provide 24h*7d on-call support. It may need 2 engineers every week and some development tasks. Once the revenue of prod env makes sense for us, this cost is acceptable. We also can choose a higher &ldquo;desire state&rdquo; on exp env. But it&rsquo;s unacceptable when you consider revenue and cost.</p>
+<h2 id="manage-risk">Manage Risk</h2>
+<p>After we identified what&rsquo;s a risk, how to measure risk in services (actual state), and what&rsquo;s mininum desired service level (desire state), we should have a strategy to guide us on how to manage risk. The reason why we mentioned &ldquo;manage&rdquo; not &ldquo;reduce&rdquo; or &ldquo;remove&rdquo; is we have to accept low service reliability sometimes. For example, if one service is in the early phase, it needs much space and time to &ldquo;make mistakes&rdquo; and learn from mistakes, so that it can go in the correct direction. In that case, we shouldn&rsquo;t set a strict service quality level for it to limit its release frequency.</p>
+<p>As SRE, we should care about the minimum service desired state and the gap between it and the actual service state by indicators. We usually call &ldquo;minimum service desired state&rdquo; as SLO,  gap as &ldquo;Error Budget&rdquo;.</p>
+<p>Once the error budget isn&rsquo;t used completely or close to 0, it&rsquo;s acceptable to take some risks in the new release. Otherwise, SRE will require produce team to lower the release frequency or improve the test coverage and code quality, so that SLO will not be broken.</p>
+<h2 id="error-budget--slo">Error Budget / SLO</h2>
+<p>SLO is more like an anchor. It makes product team and SRE team on the same page about &ldquo;minimum service quality&rdquo;. Once SLO is broken, it will cause some bad consequences, like losing money and users' trust.</p>
+<p>Error Budget is more like a tool. It lets SRE and product owners can see how many mistakes that new changes can make without affecting service quality. Once it is closing to 0, product team should stop new feature development and focus on reliability improvement, like clear tech debt, improve unit test, to earn a new error budget.</p>
+<h2 id="reflection">Reflection</h2>
+<p>When I worked in a private cloud team as a developer and SRE, our product is more like a &ldquo;resource platform&rdquo;, not PaaS. We developed a platform to provide compute/storage resources to internal developers in a convenient way.</p>
+<p>I hope I can get the root cause of each reliability issue on our platform, regardless of impact and issue scale. Because I think my responsibility is making our platform works in stable/reliable env. But I never think if that&rsquo;s what users really would like to have.</p>
+<p>I have to admit,  &ldquo;extreme reliability thought&rdquo; usually lets me take too much time (negative meaning) to evaluate a new feature of some software so that lots of internal developers don&rsquo;t want to wait for us for a long time and try to set it up by themselves. Lacking considering balance makes me go in the opposite direction with users. In one word, I resolved fake issues that are created by myself sometimes. I have to correct myself in my new journey.</p>
+
+    </div>
+<div class="post_comments">
+  
+  
+</div>
+
+
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
         <h2>Littledriver</h2>
@@ -182,9 +236,6 @@
     
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
-      <li>
-        <a href="https://littledriver.me/post/google-sre-reading-1/" class="nav-link" title="Understanding Reliability Risk">Understanding Reliability Risk</a>
-      </li>
       <li>
         <a href="https://littledriver.me/post/how-kubernetes-deletes-a-reource-object/" class="nav-link" title="How Kubernetes Deletes A Pod Gracefully">How Kubernetes Deletes A Pod Gracefully</a>
       </li>
@@ -281,9 +332,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
